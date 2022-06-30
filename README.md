@@ -8,7 +8,7 @@ O Wireframe deste projeto considera não apenas computadores pessoais, mas tamb�
 
 ## Leia o Manual do Jogo 
 
-Link do Repositório: https://github.com/JorgeSousaDev/quiz
+Link do Repositório: https://github.com/jorgesousadev/quiz
 
 Link do Jogo: https://jorgesousadev.github.io/quiz/jogo.html
 
