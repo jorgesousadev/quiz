@@ -6,9 +6,7 @@ O Wireframe deste projeto considera não apenas computadores pessoais, mas tamb�
 
 ![Wireframe](./Screenshot/wireframe.png)
 
-## Leia o Manual do Jogo (Screenshots)
-
-# Veja algumas capturas de tela, e explore os recursos.
+## Leia o Manual do Jogo 
 
 Link do Repositório: https://github.com/JorgeSousaDev/quiz
 
