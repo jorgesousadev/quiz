@@ -1,0 +1,69 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #6b0d1f;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+
+}
+
+#tabuleiro{
+    width: 150%;
+    height: 700%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card{
+    width: 380px;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.438);
+    margin: 5px;
+    border-radius: 20px;
+}
+
+img{
+    width: 280px;
+    height:190px;
+    border-radius: 8px;
+    
+}
+
+h1{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+p{
+    color: white;
+    font-family:'Segoe UI';
+}
+
+span{
+    color: white;
+    
+}
+
+h3{
+    color: white;
+}
+
+#result{
+    font-size: 20px;
+
+}
+

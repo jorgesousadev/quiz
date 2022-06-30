@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Perguntas e Respostas</title>
+    <link rel="stylesheet" href="./css/jogo.css">
+    <script src="./js/resposta.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Jogo de Perguntas e Respostas</h1>
+        <section id="tabuleiro">
+            <div id="card-1" class="card">
+                <p>Questão 1 - Qual é o nome dessa série da imagem?</p>
+                <img id="img-1" src="./img/card1.jpg" alt="#"><br>
+                <input type="radio" name="resp-1" id="alt11"><label for="">A) Um Maluco no Pedaço</label><br>
+                <input type="radio" name="resp-1" id="alt12"><label for="">B) Todo Mundo Odeia o Chris</label><br>
+                <input type="radio" name="resp-1" id="alt13"><label for="">C) Três é Demais</label><br>
+                <button onclick="pergunta1()">Enviar</button>
+                <span id="resp1" ></span>
+            </div>
+            <div id="card-2" class="card">
+                <p>Questão 2 - A imagem abaixo pertece a qual série?</p>
+                <img id="img-2" src="./img/card2.jpg" alt=""><br>
+                <input type="radio" name="resp-2" id="alt21"><label for="">A) Friends</label><br>
+                <input type="radio" name="resp-2" id="alt22"><label for="">B) The Office</label><br>
+                <input type="radio" name="resp-2" id="alt23"><label for="">C) Dois Homens e Meio</label><br>
+                <button onclick="pergunta2()">Enviar</button>
+                <span id="resp2" ></span>
+            </div>
+            <div id="card-3" class="card">
+                <p>Questão 3 - A Akatsuki era uma organização fictícia de qual anime? </p>
+                <img id="img-3" src="./img/card3.jpg" alt="#"><br>
+                <input type="radio" name="resp-3" id="alt31"><label for="">A) Boruto: Naruto Next Generations</label><br>
+                <input type="radio" name="resp-3" id="alt32"><label for="">B) Dragon Ball</label><br>
+                <input type="radio" name="resp-3" id="alt33"><label for="">C) Naruto Shippuden</label><br>
+                <button onclick="pergunta3()">Enviar</button>
+                <span id="resp3" ></span>
+            </div>
+            <div id="card-4" class="card">
+                <p>Questão 4 - Qual é o nome da série abaixo?</p>
+                <img id="img-4" src="./img/card4.jpg" alt="#"><br>
+                <input type="radio" name="resp-4" id="alt41"><label for="">A) Dois Homens e Meio</label><br>
+                <input type="radio" name="resp-4" id="alt42"><label for="">B) Eu, a Patroa e as Crianças</label><br>
+                <input type="radio" name="resp-4" id="alt43"><label for="">C) The Big Bang Theory</label><br>
+                <button onclick="pergunta4()">Enviar</button>
+                <span id="resp4" ></span>
+            </div>
+            <div id="card-5" class="card">
+                <p>Questão 5 - Qual é o nome da série presente na imagem abaixo?</p>
+                <img id="img-5" src="./img/card5.jpg" alt="#"><br>
+                <input type="radio" name="resp-5" id="alt51"><label for="">A) Todo Mundo Odeia o Chris</label><br>
+                <input type="radio" name="resp-5" id="alt52"><label for="">B) Eu, a Patroa e as Crianças</label><br>
+                <input type="radio" name="resp-5" id="alt53"><label for="">C) Um Maluco no Pedaço</label><br>
+                <button onclick="pergunta5()">Enviar</button>
+                <span id="resp5" ></span>
+            </div>
+            <div id="card-6" class="card">
+                <p>Questão 6 - Qual é o nome do personagem da série <strong style="color: cornsilk;">The Office</strong> presente na imagem abaixo?</p>
+                <img id="img-6" src="./img/card6.jpg" alt="#"><br>
+                <input type="radio" name="resp-6" id="alt61"><label for="">A) Ryan Howard</label><br>
+                <input type="radio" name="resp-6" id="alt62"><label for="">B) Dwight Schrute</label><br>
+                <input type="radio" name="resp-6" id="alt63"><label for="">C) Michael Scott</label><br>
+                <button onclick="pergunta6()">Enviar</button>
+                <span id="resp6" ></span>
+            </div>
+            <div id="card-7" class="card">
+                <p>Questão 7 - Qual é o nome dessa série que já foi transmitida pelo SBT?</p>
+                <img id="img-7" src="./img/card7.jpg" alt="#"><br>
+                <input type="radio" name="resp-7" id="alt71"><label for="">A) Dupla do Barulho</label><br>
+                <input type="radio" name="resp-7" id="alt72"><label for="">B) Dois Homens e Meio</label><br>
+                <input type="radio" name="resp-7" id="alt73"><label for="">C) Friends</label><br>
+                <button onclick="pergunta7()">Enviar</button>
+                <span id="resp7" ></span>
+            </div>
+            <div id="card-8" class="card">
+                <p>Questão 8 - Qual são os nomes desses dois personagens do anime <strong style="color: cornsilk;">Naruto Shippuden</strong> mostrado na imagem abaixo?</p>
+                <img id="img-8" src="./img/card8.jpg" alt="#"><br>
+                <input type="radio" name="resp-8" id="alt81"><label for="">A) Obito Uchiha, Nagato</label><br>
+                <input type="radio" name="resp-8" id="alt82"><label for="">B) Sasuke Uchiha, Naruto Uzumaki</label><br>
+                <input type="radio" name="resp-8" id="alt83"><label for="">C) Madara Uchiha, Gaara</label><br>
+                <button onclick="pergunta8()">Enviar</button>
+                <span id="resp8" ></span>
+            </div>
+            <div id="card-9" class="card">
+                <p>Questão 9 - Qual é o nome do personagem da série <strong style="color: cornsilk;">The Office</strong> presente na imagem abaixo?</p>
+                <img id="img-9" src="./img/card9.jpg" alt="#"><br>
+                <input type="radio" name="resp-9" id="alt91"><label for="">A) Jim Halpert</label><br>
+                <input type="radio" name="resp-9" id="alt92"><label for="">B) Michael Scott</label><br>
+                <input type="radio" name="resp-9" id="alt93"><label for="">C) Dwight Schrute</label><br>
+                <button onclick="pergunta9()">Enviar</button>
+                <span id="resp9" ></span>
+            </div>
+            <div id="card-10" class="card">
+                <p>Questão 10 - <strong style="color: cornsilk;">Os Simpsons</strong> foi transmitido na tv pela primeira vez em qual data?</p>
+                <img id="img-10" src="./img/card10.jpg" alt="#"><br>
+                <input type="radio" name="resp-10" id="alt101"><label for="">A) 17 de dezembro de 1989</label><br>
+                <input type="radio" name="resp-10" id="alt102"><label for="">B) 25 de dezembro de 1990</label><br>
+                <input type="radio" name="resp-10" id="alt103"><label for="">C) 12 de janeiro de 2002</label><br>
+                <button onclick="pergunta10()">Enviar</button>
+                <span id="resp10" ></span>
+            </div>
+            <div id="card-11" class="card">
+                <p>Questão 11 - Os personagens presente na imagem abaixo pertencem a qual série?</p>
+                <img id="img-11" src="./img/card11.jpg" alt="#"><br>
+                <input type="radio" name="resp-11" id="alt111"><label for="">A) Breaking Bad</label><br>
+                <input type="radio" name="resp-11" id="alt112"><label for="">B) Prison Break</label><br>
+                <input type="radio" name="resp-11" id="alt113"><label for="">C) Better Call Saul</label><br>
+                <button onclick="pergunta11()">Enviar</button>
+                <span id="resp11" ></span>
+            </div>
+            <div id="card-12" class="card">
+                <p>Questão 12 - Essa cena pertece a qual filme?</p>
+                <img id="img-12" src="./img/card12.jpg" alt="#"><br>
+                <input type="radio" name="resp-12" id="alt121"><label for="">A) Velozes & Furiosos 5 - Operação Rio</label><br>
+                <input type="radio" name="resp-12" id="alt122"><label for="">B) Velozes & Furiosos 7</label><br>
+                <input type="radio" name="resp-12" id="alt123"><label for="">C) Velozes & Furiosos 3 - Desafio em Tóquio</label><br>
+                <button onclick="pergunta12()">Enviar</button>
+                <span id="resp12" ></span>
+            </div>
+        </section>
+        <h3>Pontuação:</h3> <span id="result"></span>
+        <button type="button" onclick=" localStorage.clear(); location.reload();">Jogar de Novo</button>
+    </main> 
+</body>
+</html>
